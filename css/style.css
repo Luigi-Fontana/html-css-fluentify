@@ -101,3 +101,25 @@ nav a:hover {
     border: 1px solid #7eb801;
     border-radius: 5px;
 }
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 0;
+    transform: scale(.5) translate(-80px,90px);
+}
+
+.text {
+    width: 50%;
+    margin-top: 70px;
+    float:left;
+}
+
+.text p {
+    font-size: 45px;
+    color: white;
+}
