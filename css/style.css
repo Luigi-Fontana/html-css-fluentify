@@ -19,7 +19,6 @@
 
 .container {
     width: 85%;
-    height: 70px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -110,10 +109,10 @@ nav a:hover {
     position: absolute;
     left: 50%;
     transform-origin: 0 0;
-    transform: scale(.5) translate(-80px,90px);
+    transform: scale(.5) translate(-80px,37px);
 }
 
-.title {
+.banner .title {
     float: left;
     width: 50%;
     margin-top: 70px;
@@ -138,4 +137,40 @@ nav a:hover {
     background-color: #7eb801;
     border: 1px solid #7eb801;
     border-radius: 6px;
+}
+
+.fullwidth-white {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.row-one {
+    width: 85%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.row-one .title h2 {
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.row-one .title p {
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.row-one .list {
+    width: 33.33%;
+    float: left;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.list img {
+    height: 160px;
 }
