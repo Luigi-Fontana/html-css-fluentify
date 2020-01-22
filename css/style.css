@@ -30,6 +30,13 @@ header {
     text-align: center;
 }
 
+header a {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .logo {
     float: left;
     margin: 3px 15px;
@@ -41,9 +48,7 @@ header {
 
 nav {
     float:left;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 nav ul {
@@ -53,16 +58,46 @@ nav ul {
 nav li {
     float: left;
     list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 11px;
-    font-weight: bold;
-    color: white;
     margin: 0 8px;
 }
 
 nav a:hover {
     color: orange;
+}
+
+.right {
+    float: right;
+    margin: 10px 20px;
+}
+
+.tutor {
+    float: left;
+    margin-right: 15px;
+}
+
+.tutor a {
+    color: #94a0b0;
+}
+
+.login {
+    float: left;
+}
+
+.login a {
+    padding: 8px 25px;
+    border: 1px solid #527fa8;
+    border-radius: 5px;
+}
+
+.plan {
+    margin-left: 8px;
+    float: left;
+}
+
+.plan a {
+    padding: 8px 10px;
+    color: white;
+    background-color: #7eb801;
+    border: 1px solid #7eb801;
+    border-radius: 5px;
 }
