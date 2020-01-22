@@ -11,6 +11,10 @@
     clear: both;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .fullwidth-blue {
     width: 100vw;
     height: 500px;
